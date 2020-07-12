@@ -46,7 +46,7 @@ function smallNum(num) {
 }
 
 // returns the value
-function toWordsConverted(s) {
+export function toWordsConverted(s) {
     let r = "";
     let temp = "";
     while (s.length % 3 > 0) s = "0" + s;

@@ -1,3 +1,5 @@
+import { toWordsConverted } from "./numtowords.js";
+
 const src = $('#grid');
 const wrap = $('<div id="grid-overlay"></div>');
 const gsize = 7;
