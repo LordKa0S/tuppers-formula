@@ -125,7 +125,7 @@ $('#bitArea').keyup(function () {
 });
 
 $('#decArea').keyup(function () {
-    const input = $(this).val()?.replace(/ /g, '').replace(',', '');
+    const input = $(this).val().replace(/ /g, '').replace(',', '');
 
     if (!/^\d+$/.test(input) && input !== "") decError.text("Not a positive number.");
     else if (input !== "") {
